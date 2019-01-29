@@ -34,3 +34,15 @@
 
 #### 3.[30秒 CSS 中文版](http://caibaojian.com/30-seconds-of-css/)
 ![30秒 CSS 中文版](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/30css.png "30秒 CSS 中文版")
+
+
+#### 4.[CSS3样式生成器](https://www.html.cn/tool/css3Preview/)
+![CSS3样式生成器](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/cssStyle.png "CSS3样式生成器")
+
+
+#### 5.[CSS Reference](https://www.html.cn/tool/css3Preview/)
+![CSS Reference](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/css_reference.png "CSS Reference")
+
+
+#### 6.[caniuse](https://caniuse.com)
+![CSS caniuse](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/css_reference.png "CSS caniuse")

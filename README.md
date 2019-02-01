@@ -50,3 +50,7 @@
 
 #### 6.[caniuse](https://caniuse.com)
 ![CSS caniuse](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/caniuse.png "CSS caniuse")
+
+
+#### 6.[currentColor-CSS3超高校级好用CSS变量](https://www.zhangxinxu.com/wordpress/2014/10/currentcolor-css3-powerful-css-keyword/)
+![currentColor](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/cssCurrentcolor.png "currentColor")

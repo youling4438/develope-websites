@@ -21,6 +21,10 @@
 
 ![JavaScript 教程](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/jsTutorial.png "JavaScript 教程")
 
+#### 5.[【深度长文】JavaScript数组所有API全解密](https://segmentfault.com/a/1190000009257257)
+
+![JavaScript数组](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/jsArr.png "JavaScript数组")
+
 
 ### ``CSS`` 部分
 

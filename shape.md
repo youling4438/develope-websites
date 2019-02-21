@@ -94,3 +94,48 @@
 ```
 实现效果如下图：
 
++ 左上三角 (triangle-topleft)
+```CSS
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+}
+```
+实现效果如下图：
+
++ 右上三角 (triangle-topright)
+```CSS
+#triangle-topright {
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent;
+}
+```
+实现效果如下图：
+
++ 左下角三角图形 (triangle-bottomleft)
+```CSS
+#triangle-bottomleft {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent;
+}
+```
+实现效果如下图：
+
+
++ 右下角三角图形 (triangle-bottomright)
+```CSS
+#triangle-bottomright {
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-left: 100px solid transparent;
+}
+```
+实现效果如下图：
+

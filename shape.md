@@ -23,3 +23,27 @@
 实现效果如下图：
 
 ![现代Javascript教程 ](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/jsinfo.png "现代Javascript教程")
+
++ 正圆 (circle)
+```CSS
+#circle {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%
+}
+```
+实现效果如下图：
+
++ 椭圆 (oval)
+```CSS
+#oval {
+  width: 200px;
+  height: 100px;
+  background: red;
+  border-radius: 100px / 50px;
+}
+
+```
+实现效果如下图：
+

@@ -413,3 +413,51 @@
 ```
 实现效果如下图：
 
+
++ 菱形方块 (diamond)
+```CSS
+#diamond {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: red;
+  position: relative;
+  top: -50px;
+}
+#diamond:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: red;
+}
+```
+实现效果如下图：
+
+
++ 菱形盾构 (diamond-shield)
+```CSS
+#diamond-shield {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom: 20px solid red;
+  position: relative;
+  top: -50px;
+}
+#diamond-shield:after {
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 20px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top: 70px solid red;
+}
+```
+实现效果如下图：
+

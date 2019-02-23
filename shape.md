@@ -139,3 +139,27 @@
 ```
 实现效果如下图：
 
++ 弧形尾箭头 (curvedarrow)
+```CSS
+#curvedarrow {
+  position: relative;
+  width: 0;
+  border-top: 90px solid transparent;
+  border-right: 90px solid red;
+  transform: rotate(10deg) translateX(100%);
+}
+#curvedarrow:after {
+  content: "";
+  position: absolute;
+  border: 0 solid transparent;
+  border-top: 30px solid red;
+  border-radius: 200px 0 0 0;
+  top: -120px;
+  left: -90px;
+  width: 120px;
+  height: 120px;
+  transform: rotate(45deg);
+}
+```
+实现效果如下图：
+

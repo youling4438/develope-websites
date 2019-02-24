@@ -543,3 +543,83 @@
 ```
 实现效果如下图：
 
+
++ 带尖角的说话泡泡 (pacman)
+```CSS
+#talkbubble {
+  width: 120px;
+  height: 80px;
+  background: red;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+#talkbubble:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-right: 26px solid red;
+  border-bottom: 13px solid transparent;
+}
+```
+实现效果如下图：
+
+
++ 十二星 (burst-12)
+```CSS
+#burst-12 {
+  background: red;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+}
+#burst-12:before,
+#burst-12:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: red;
+}
+#burst-12:before {
+  transform: rotate(30deg);
+}
+#burst-12:after {
+  transform: rotate(60deg);
+}
+
+```
+实现效果如下图：
+
+
++ 八角形 (burst-8)
+```CSS
+#burst-8 {
+  background: red;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  text-align: center;
+  transform: rotate(20deg);
+}
+#burst-8:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 80px;
+  background: red;
+  transform: rotate(135deg);
+}
+```
+实现效果如下图：
+

@@ -5,7 +5,7 @@
 #square {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #f09199;
 }
 ```
 实现效果如下图：
@@ -17,7 +17,7 @@
 #rectangle {
   width: 200px;
   height: 100px;
-  background: red;
+  background: #f09199;
 }
 ```
 实现效果如下图：
@@ -29,7 +29,7 @@
 #circle {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #f09199;
   border-radius: 50%
 }
 ```
@@ -40,7 +40,7 @@
 #oval {
   width: 200px;
   height: 100px;
-  background: red;
+  background: #f09199;
   border-radius: 100px / 50px;
 }
 ```
@@ -53,7 +53,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 100px solid red;
+  border-bottom: 100px solid #f09199;
 }
 ```
 实现效果如下图：
@@ -65,7 +65,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 100px solid red;
+  border-top: 100px solid #f09199;
 }
 ```
 实现效果如下图：
@@ -76,7 +76,7 @@
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-right: 100px solid red;
+  border-right: 100px solid #f09199;
   border-bottom: 50px solid transparent;
 }
 ```
@@ -88,7 +88,7 @@
   width: 0;
   height: 0;
   border-top: 50px solid transparent;
-  border-left: 100px solid red;
+  border-left: 100px solid #f09199;
   border-bottom: 50px solid transparent;
 }
 ```
@@ -99,7 +99,7 @@
 #triangle-topleft {
   width: 0;
   height: 0;
-  border-top: 100px solid red;
+  border-top: 100px solid #f09199;
   border-right: 100px solid transparent;
 }
 ```
@@ -110,7 +110,7 @@
 #triangle-topright {
   width: 0;
   height: 0;
-  border-top: 100px solid red;
+  border-top: 100px solid #f09199;
   border-left: 100px solid transparent;
 }
 ```
@@ -121,7 +121,7 @@
 #triangle-bottomleft {
   width: 0;
   height: 0;
-  border-bottom: 100px solid red;
+  border-bottom: 100px solid #f09199;
   border-right: 100px solid transparent;
 }
 ```
@@ -133,7 +133,7 @@
 #triangle-bottomright {
   width: 0;
   height: 0;
-  border-bottom: 100px solid red;
+  border-bottom: 100px solid #f09199;
   border-left: 100px solid transparent;
 }
 ```
@@ -145,14 +145,14 @@
   position: relative;
   width: 0;
   border-top: 90px solid transparent;
-  border-right: 90px solid red;
+  border-right: 90px solid #f09199;
   transform: rotate(10deg) translateX(100%);
 }
 #curvedarrow:after {
   content: "";
   position: absolute;
   border: 0 solid transparent;
-  border-top: 30px solid red;
+  border-top: 30px solid #f09199;
   border-radius: 200px 0 0 0;
   top: -120px;
   left: -90px;
@@ -167,7 +167,7 @@
 + 梯形 (trapezoid)
 ```CSS
 #trapezoid {
-  border-bottom: 100px solid red;
+  border-bottom: 100px solid #f09199;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   height: 0;
@@ -183,7 +183,7 @@
   width: 150px;
   height: 100px;
   transform: skew(20deg);
-  background: red;
+  background: #f09199;
 }
 ```
 实现效果如下图：
@@ -196,7 +196,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 100px solid red;
+  border-bottom: 100px solid #f09199;
   position: relative;
 }
 #star-six:after {
@@ -204,7 +204,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 100px solid red;
+  border-top: 100px solid #f09199;
   position: absolute;
   content: "";
   top: 30px;
@@ -220,16 +220,16 @@
   margin: 50px 0;
   position: relative;
   display: block;
-  color: red;
+  color: #f09199;
   width: 0px;
   height: 0px;
   border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
+  border-bottom: 70px solid #f09199;
   border-left: 100px solid transparent;
   transform: rotate(35deg);
 }
 #star-five:before {
-  border-bottom: 80px solid red;
+  border-bottom: 80px solid #f09199;
   border-left: 30px solid transparent;
   border-right: 30px solid transparent;
   position: absolute;
@@ -244,13 +244,13 @@
 #star-five:after {
   position: absolute;
   display: block;
-  color: red;
+  color: #f09199;
   top: 3px;
   left: -105px;
   width: 0px;
   height: 0px;
   border-right: 100px solid transparent;
-  border-bottom: 70px solid red;
+  border-bottom: 70px solid #f09199;
   border-left: 100px solid transparent;
   transform: rotate(-70deg);
   content: '';
@@ -267,7 +267,7 @@
   box-sizing: content-box;
   border-width: 50px 18px 0;
   border-style: solid;
-  border-color: red transparent;
+  border-color: #f09199 transparent;
 }
 #pentagon:before {
   content: "";
@@ -278,7 +278,7 @@
   left: -18px;
   border-width: 0 45px 35px;
   border-style: solid;
-  border-color: transparent transparent red;
+  border-color: transparent transparent #f09199;
 }
 ```
 实现效果如下图：
@@ -289,7 +289,7 @@
 #hexagon {
   width: 100px;
   height: 55px;
-  background: red;
+  background: #f09199;
   position: relative;
 }
 #hexagon:before {
@@ -301,7 +301,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 25px solid red;
+  border-bottom: 25px solid #f09199;
 }
 #hexagon:after {
   content: "";
@@ -312,7 +312,7 @@
   height: 0;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-top: 25px solid red;
+  border-top: 25px solid #f09199;
 }
 ```
 实现效果如下图：
@@ -323,7 +323,7 @@
 #octagon {
   width: 100px;
   height: 100px;
-  background: red;
+  background: #f09199;
   position: relative;
 }
 #octagon:before {
@@ -333,7 +333,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  border-bottom: 29px solid red;
+  border-bottom: 29px solid #f09199;
   border-left: 29px solid #fff;
   border-right: 29px solid #fff;
   box-sizing: border-box;
@@ -345,7 +345,7 @@
   position: absolute;
   bottom: 0;
   left: 0;
-  border-top: 29px solid red;
+  border-top: 29px solid #f09199;
   border-left: 29px solid #fff;
   border-right: 29px solid #fff;
   box-sizing: border-box;
@@ -369,7 +369,7 @@
   top: 0;
   width: 50px;
   height: 80px;
-  background: red;
+  background: #f09199;
   border-radius: 50px 50px 0 0;
   transform: rotate(-45deg);
   transform-origin: 0 100%;
@@ -400,7 +400,7 @@
   left: 0;
   width: 60px;
   height: 60px;
-  border: 20px solid red;
+  border: 20px solid #f09199;
   border-radius: 50px 50px 0 50px;
   transform: rotate(-45deg);
 }
@@ -420,7 +420,7 @@
   width: 0;
   height: 0;
   border: 50px solid transparent;
-  border-bottom-color: red;
+  border-bottom-color: #f09199;
   position: relative;
   top: -50px;
 }
@@ -432,7 +432,7 @@
   width: 0;
   height: 0;
   border: 50px solid transparent;
-  border-top-color: red;
+  border-top-color: #f09199;
 }
 ```
 实现效果如下图：
@@ -444,7 +444,7 @@
   width: 0;
   height: 0;
   border: 50px solid transparent;
-  border-bottom: 20px solid red;
+  border-bottom: 20px solid #f09199;
   position: relative;
   top: -50px;
 }
@@ -456,7 +456,7 @@
   width: 0;
   height: 0;
   border: 50px solid transparent;
-  border-top: 70px solid red;
+  border-top: 70px solid #f09199;
 }
 ```
 实现效果如下图：
@@ -468,7 +468,7 @@
   width: 0;
   height: 0;
   border: 50px solid transparent;
-  border-bottom: 70px solid red;
+  border-bottom: 70px solid #f09199;
   position: relative;
   top: -50px;
 }
@@ -480,7 +480,7 @@
   width: 0;
   height: 0;
   border: 50px solid transparent;
-  border-top: 70px solid red;
+  border-top: 70px solid #f09199;
 }
 ```
 实现效果如下图：
@@ -490,7 +490,7 @@
 ```CSS
 #cut-diamond {
   border-style: solid;
-  border-color: transparent transparent red transparent;
+  border-color: transparent transparent #f09199 transparent;
   border-width: 0 25px 25px 25px;
   height: 0;
   width: 50px;
@@ -506,7 +506,7 @@
   width: 0;
   height: 0;
   border-style: solid;
-  border-color: red transparent transparent transparent;
+  border-color: #f09199 transparent transparent transparent;
   border-width: 70px 50px 0 50px;
 }
 ```
@@ -519,7 +519,7 @@
   display: block;
   width: 126px;
   height: 180px;
-  background-color: red;
+  background-color: #f09199;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
 ```
@@ -532,9 +532,9 @@
   width: 0px;
   height: 0px;
   border-right: 60px solid transparent;
-  border-top: 60px solid red;
-  border-left: 60px solid red;
-  border-bottom: 60px solid red;
+  border-top: 60px solid #f09199;
+  border-left: 60px solid #f09199;
+  border-bottom: 60px solid #f09199;
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -549,7 +549,7 @@
 #talkbubble {
   width: 120px;
   height: 80px;
-  background: red;
+  background: #f09199;
   position: relative;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -563,7 +563,7 @@
   width: 0;
   height: 0;
   border-top: 13px solid transparent;
-  border-right: 26px solid red;
+  border-right: 26px solid #f09199;
   border-bottom: 13px solid transparent;
 }
 ```
@@ -573,7 +573,7 @@
 + 十二星 (burst-12)
 ```CSS
 #burst-12 {
-  background: red;
+  background: #f09199;
   width: 80px;
   height: 80px;
   position: relative;
@@ -587,7 +587,7 @@
   left: 0;
   height: 80px;
   width: 80px;
-  background: red;
+  background: #f09199;
 }
 #burst-12:before {
   transform: rotate(30deg);
@@ -603,7 +603,7 @@
 + 八角形 (burst-8)
 ```CSS
 #burst-8 {
-  background: red;
+  background: #f09199;
   width: 80px;
   height: 80px;
   position: relative;
@@ -617,7 +617,7 @@
   left: 0;
   height: 80px;
   width: 80px;
-  background: red;
+  background: #f09199;
   transform: rotate(135deg);
 }
 ```
@@ -630,7 +630,7 @@
   width: 96px;
   height: 48px;
   background: #fff;
-  border-color: red;
+  border-color: #f09199;
   border-style: solid;
   border-width: 2px 2px 50px 2px;
   border-radius: 100%;
@@ -642,7 +642,7 @@
   top: 50%;
   left: 0;
   background: #fff;
-  border: 18px solid red;
+  border: 18px solid #f09199;
   border-radius: 100%;
   width: 12px;
   height: 12px;
@@ -652,7 +652,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  background: red;
+  background: #f09199;
   border: 18px solid #fff;
   border-radius: 100%;
   width: 12px;
@@ -666,7 +666,7 @@
 ```CSS
 #badge-ribbon {
   position: relative;
-  background: red;
+  background: #f09199;
   height: 100px;
   width: 100px;
   border-radius: 50px;
@@ -675,7 +675,7 @@
 #badge-ribbon:after {
   content: '';
   position: absolute;
-  border-bottom: 70px solid red;
+  border-bottom: 70px solid #f09199;
   border-left: 40px solid transparent;
   border-right: 40px solid transparent;
   top: 70px;
@@ -698,7 +698,7 @@
   width: 200px;
   height: 150px;
   margin: 20px 0;
-  background: red;
+  background: #f09199;
   border-radius: 50% / 10%;
   color: white;
   text-align: center;
@@ -735,7 +735,7 @@
   left: 0;
   height: 100%;
   width: 51%;
-  background: red;
+  background: #f09199;
   transform: skew(0deg, 6deg);
 }
 #chevron:after {
@@ -745,7 +745,7 @@
   right: 0;
   height: 100%;
   width: 50%;
-  background: red;
+  background: #f09199;
   transform: skew(0deg, -6deg);
 }
 ```
@@ -760,7 +760,7 @@
   width: 0.4em;
   box-sizing: content-box;
   height: 0.4em;
-  border: 0.1em solid red;
+  border: 0.1em solid #f09199;
   position: relative;
   border-radius: 0.35em;
 }
@@ -771,7 +771,7 @@
   right: -0.25em;
   bottom: -0.1em;
   border-width: 0;
-  background: red;
+  background: #f09199;
   width: 0.35em;
   height: 0.08em;
   transform: rotate(45deg);
@@ -786,7 +786,7 @@
   width: 80px;
   height: 80px;
   border-radius: 50%;
-  box-shadow: 15px 15px 0 0 red;
+  box-shadow: 15px 15px 0 0 #f09199;
 }
 ```
 实现效果如下图：
@@ -799,7 +799,7 @@
   height: 56px;
   padding-top: 15px;
   position: relative;
-  background: red;
+  background: #f09199;
 }
 #flag:after {
   content: "";
@@ -823,7 +823,7 @@
   height: 0;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-top: 100px solid red;
+  border-top: 100px solid #f09199;
   border-radius: 50%;
 }
 ```
@@ -833,13 +833,13 @@
 + 十字架 (cross)
 ```CSS
 #cross {
-  background: red;
+  background: #f09199;
   height: 100px;
   position: relative;
   width: 20px;
 }
 #cross:after {
-  background: red;
+  background: #f09199;
   content: "";
   height: 20px;
   left: -40px;
@@ -854,7 +854,7 @@
 + 棒球踏板形状 (base)
 ```CSS
 #base {
-  background: red;
+  background: #f09199;
   display: inline-block;
   height: 55px;
   margin-left: 20px;
@@ -863,7 +863,7 @@
   width: 100px;
 }
 #base:before {
-  border-bottom: 35px solid red;
+  border-bottom: 35px solid #f09199;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
   content: "";
@@ -883,7 +883,7 @@
   width: 200px;
   height: 40px;
   position: relative;
-  background: red;
+  background: #f09199;
 }
 #pointer:after {
   content: "";
@@ -903,7 +903,7 @@
   bottom: 0;
   width: 0;
   height: 0;
-  border-left: 20px solid red;
+  border-left: 20px solid #f09199;
   border-top: 20px solid transparent;
   border-bottom: 20px solid transparent;
 }
@@ -921,7 +921,7 @@
   border-radius: 2em;
   top: 10em;
   box-sizing: border-box;
-  border: 3.5em solid red;
+  border: 3.5em solid #f09199;
   border-right-width: 7.5em;
   border-left-width: 7.5em;
   margin: 0 0 6rem 0;
@@ -930,7 +930,7 @@
   content: "";
   box-sizing: border-box;
   position: absolute;
-  border: 2.5em solid red;
+  border: 2.5em solid #f09199;
   width: 14em;
   height: 12em;
   left: 50%;
@@ -943,7 +943,7 @@
   content: "";
   box-sizing: border-box;
   position: absolute;
-  border: 1em solid red;
+  border: 1em solid #f09199;
   width: 5em;
   height: 8em;
   border-radius: 2.5em;

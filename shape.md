@@ -512,3 +512,34 @@
 ```
 实现效果如下图：
 
+
++ 鸡蛋形状 (egg)
+```CSS
+#egg {
+  display: block;
+  width: 126px;
+  height: 180px;
+  background-color: red;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+```
+实现效果如下图：
+
+
++ 吃豆人 (pacman)
+```CSS
+#pacman {
+  width: 0px;
+  height: 0px;
+  border-right: 60px solid transparent;
+  border-top: 60px solid red;
+  border-left: 60px solid red;
+  border-bottom: 60px solid red;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+}
+```
+实现效果如下图：
+

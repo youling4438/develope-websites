@@ -12,7 +12,7 @@
 ```
 实现效果如下图：
 
-![现代Javascript教程 ](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/jsinfo.png "现代Javascript教程")
+![square ](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/square.png "square")
 
 + 长方形 (rectangle)
 ```CSS
@@ -24,7 +24,7 @@
 ```
 实现效果如下图：
 
-![现代Javascript教程 ](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/jsinfo.png "现代Javascript教程")
+![rectangle ](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/rectangle.png "rectangle")
 
 + 正圆 (circle)
 ```CSS

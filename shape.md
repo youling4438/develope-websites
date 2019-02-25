@@ -12,7 +12,7 @@
 ```
 实现效果如下图：
 
-![square ](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/square.png "square")
+![square](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/square.png "square")
 
 + 长方形 (rectangle)
 ```CSS
@@ -24,7 +24,7 @@
 ```
 实现效果如下图：
 
-![rectangle ](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/rectangle.png "rectangle")
+![rectangle](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/rectangle.png "rectangle")
 
 + 正圆 (circle)
 ```CSS
@@ -37,6 +37,8 @@
 ```
 实现效果如下图：
 
+![circle](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/circle.png "circle")
+
 + 椭圆 (oval)
 ```CSS
 #oval {
@@ -47,6 +49,8 @@
 }
 ```
 实现效果如下图：
+
+![oval](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/oval.png "oval")
 
 + 向上三角 (triangle-up)
 ```CSS
@@ -60,6 +64,8 @@
 ```
 实现效果如下图：
 
+![triangle-up](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-up.png "triangle-up")
+
 + 向下三角 (triangle-down)
 ```CSS
 #triangle-down {
@@ -71,6 +77,8 @@
 }
 ```
 实现效果如下图：
+
+![triangle-down](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-down.png "triangle-down")
 
 + 方向朝左的三角 (triangle-left)
 ```CSS
@@ -84,6 +92,8 @@
 ```
 实现效果如下图：
 
+![triangle-left](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-left.png "triangle-left")
+
 + 方向朝右的三角 (triangle-right)
 ```CSS
 #triangle-right {
@@ -95,6 +105,8 @@
 }
 ```
 实现效果如下图：
+
+![triangle-right](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-right.png "triangle-right")
 
 + 左上三角 (triangle-topleft)
 ```CSS

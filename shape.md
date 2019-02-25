@@ -184,6 +184,7 @@
 ```
 实现效果如下图：
 
+![curvedarrow](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/curvedarrow.png "curvedarrow")
 
 + 梯形 (trapezoid)
 ```CSS
@@ -197,6 +198,7 @@
 ```
 实现效果如下图：
 
+![trapezoid](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/trapezoid.png "trapezoid")
 
 + 等边四边形 (parallelogram)
 ```CSS

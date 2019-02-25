@@ -119,6 +119,8 @@
 ```
 实现效果如下图：
 
+![triangle-topleft](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-topleft.png "ttriangle-topleft")
+
 + 右上三角 (triangle-topright)
 ```CSS
 #triangle-topright {
@@ -129,6 +131,8 @@
 }
 ```
 实现效果如下图：
+
+![triangle-topright](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-topright.png "triangle-topright")
 
 + 左下角三角图形 (triangle-bottomleft)
 ```CSS
@@ -141,6 +145,7 @@
 ```
 实现效果如下图：
 
+![triangle-bottomleft](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-bottomleft.png "triangle-bottomleft")
 
 + 右下角三角图形 (triangle-bottomright)
 ```CSS
@@ -152,6 +157,8 @@
 }
 ```
 实现效果如下图：
+
+![triangle-bottomright](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/triangle-bottomright.png "triangle-bottomright")
 
 + 弧形尾箭头 (curvedarrow)
 ```CSS

@@ -578,7 +578,7 @@
 实现效果如下图：
 
 
-+ 带尖角的说话泡泡 (pacman)
++ 带尖角的说话泡泡 (talkbubble)
 ```CSS
 #talkbubble {
   width: 120px;

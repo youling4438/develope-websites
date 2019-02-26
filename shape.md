@@ -310,6 +310,7 @@
 ```
 实现效果如下图：
 
+![pentagon](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/pentagon.png "pentagon")
 
 + 多边形-六边形 (hexagon)
 ```CSS
@@ -343,6 +344,8 @@
 }
 ```
 实现效果如下图：
+
+![hexagon](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/hexagon.png "hexagon")
 
 
 + 多边形-八边形 (octagon)
@@ -380,6 +383,7 @@
 ```
 实现效果如下图：
 
+![octagon](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/octagon.png "octagon")
 
 + 爱心❥ (heart)
 ```CSS
@@ -409,6 +413,7 @@
 ```
 实现效果如下图：
 
+![heart](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/heart.png "heart")
 
 + 无限 (infinity)
 ```CSS
@@ -440,6 +445,7 @@
 ```
 实现效果如下图：
 
+![infinity](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/infinity.png "infinity")
 
 + 菱形方块 (diamond)
 ```CSS
@@ -464,6 +470,7 @@
 ```
 实现效果如下图：
 
+![diamond](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/diamond.png "diamond")
 
 + 菱形盾构 (diamond-shield)
 ```CSS

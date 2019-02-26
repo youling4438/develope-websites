@@ -211,6 +211,7 @@
 ```
 实现效果如下图：
 
+![parallelogram](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/parallelogram.png "parallelogram")
 
 + 六角星 (star-six)
 ```CSS
@@ -236,6 +237,7 @@
 ```
 实现效果如下图：
 
+![star-six](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/star-six.png "star-six")
 
 + 五角星 (star-five)
 ```CSS
@@ -280,6 +282,8 @@
 }
 ```
 实现效果如下图：
+
+![star-five](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/star-five.png "star-five")
 
 
 + 多边形-五边形 (pentagon)

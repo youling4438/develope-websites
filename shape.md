@@ -797,6 +797,7 @@
 ```
 实现效果如下图：
 
+![chevron](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/chevron.png "chevron")
 
 + 放大镜 (magnifying-glass)
 ```CSS
@@ -825,6 +826,7 @@
 ```
 实现效果如下图：
 
+![magnifying-glass](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/magnifying-glass.png "magnifying-glass")
 
 + 月儿弯弯 (moon)
 ```CSS
@@ -837,6 +839,7 @@
 ```
 实现效果如下图：
 
+![moon](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/moon.png "moon")
 
 + 旗帜 (flag)
 ```CSS
@@ -861,6 +864,7 @@
 ```
 实现效果如下图：
 
+![flag](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/flag.png "flag")
 
 + 圆锥体 (cone)
 ```CSS
@@ -875,6 +879,7 @@
 ```
 实现效果如下图：
 
+![cone](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/cone.png "cone")
 
 + 十字架 (cross)
 ```CSS
@@ -896,6 +901,7 @@
 ```
 实现效果如下图：
 
+![cross](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/cross.png "cross")
 
 + 棒球踏板形状 (base)
 ```CSS
@@ -922,6 +928,7 @@
 ```
 实现效果如下图：
 
+![base](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/base.png "base")
 
 + 长长的指向图形 (pointer)
 ```CSS
@@ -956,6 +963,7 @@
 ```
 实现效果如下图：
 
+![pointer](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/pointer.png "pointer")
 
 + 锁 (lock)
 ```CSS
@@ -1000,3 +1008,4 @@
 ```
 实现效果如下图：
 
+![lock](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/lock.png "lock")

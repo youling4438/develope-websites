@@ -495,6 +495,7 @@
 ```
 实现效果如下图：
 
+![diamond-shield](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/cut-diamond.png "diamond-shield")
 
 + 方块菱形-窄 (diamond-narrow)
 ```CSS
@@ -519,6 +520,7 @@
 ```
 实现效果如下图：
 
+![diamond-narrow](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/diamond-narrow.png "diamond-narrow")
 
 + 切割菱形-钻石般 (cut-diamond)
 ```CSS
@@ -546,6 +548,7 @@
 ```
 实现效果如下图：
 
+![diamond-shield](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/cut-diamond.png "diamond-shield")
 
 + 鸡蛋形状 (egg)
 ```CSS
@@ -559,6 +562,7 @@
 ```
 实现效果如下图：
 
+![egg](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/egg.png "egg")
 
 + 吃豆人 (pacman)
 ```CSS
@@ -577,6 +581,7 @@
 ```
 实现效果如下图：
 
+![pacman](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/pacman.png "pacman")
 
 + 带尖角的说话泡泡 (talkbubble)
 ```CSS

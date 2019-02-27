@@ -495,7 +495,7 @@
 ```
 实现效果如下图：
 
-![diamond-shield](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/cut-diamond.png "diamond-shield")
+![diamond-shield](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/diamond-shield.png "diamond-shield")
 
 + 方块菱形-窄 (diamond-narrow)
 ```CSS

@@ -608,6 +608,7 @@
 ```
 实现效果如下图：
 
+![talkbubble](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/talkbubble.png "talkbubble")
 
 + 十二星 (burst-12)
 ```CSS
@@ -638,6 +639,8 @@
 ```
 实现效果如下图：
 
+![burst-12](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/burst-12.png "burst-12")
+
 
 + 八角形 (burst-8)
 ```CSS
@@ -662,6 +665,7 @@
 ```
 实现效果如下图：
 
+![burst-8](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/burst-8.png "burst-8")
 
 + 阴阳八卦 (yin-yang)
 ```CSS
@@ -700,6 +704,7 @@
 ```
 实现效果如下图：
 
+![yin-yang](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/yin-yang.png "yin-yang")
 
 + 徽章缎带 (badge-ribbon)
 ```CSS
@@ -729,6 +734,7 @@
 ```
 实现效果如下图：
 
+![badge-ribbon](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/badge-ribbon.png "badge-ribbon")
 
 + bilibili电视机 (tv)
 ```CSS
@@ -756,6 +762,7 @@
 ```
 实现效果如下图：
 
+![tv](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/tv.png "tv")
 
 + V形线条 (chevron)
 ```CSS

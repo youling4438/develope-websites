@@ -1009,3 +1009,47 @@
 实现效果如下图：
 
 ![lock](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/lock.png "lock")
+
++ space-invader (space-invader)
+```CSS
+#space-invader {
+  box-shadow: 0 0 0 1em #f09199,
+  0 1em 0 1em #f09199,
+  -2.5em 1.5em 0 .5em #f09199,
+  2.5em 1.5em 0 .5em #f09199,
+  -3em -3em 0 0 #f09199,
+  3em -3em 0 0 #f09199,
+  -2em -2em 0 0 #f09199,
+  2em -2em 0 0 #f09199,
+  -3em -1em 0 0 #f09199,
+  -2em -1em 0 0 #f09199,
+  2em -1em 0 0 #f09199,
+  3em -1em 0 0 #f09199,
+  -4em 0 0 0 #f09199,
+  -3em 0 0 0 #f09199,
+  3em 0 0 0 #f09199,
+  4em 0 0 0 #f09199,
+  -5em 1em 0 0 #f09199,
+  -4em 1em 0 0 #f09199,
+  4em 1em 0 0 #f09199,
+  5em 1em 0 0 #f09199,
+  -5em 2em 0 0 #f09199,
+  5em 2em 0 0 #f09199,
+  -5em 3em 0 0 #f09199,
+  -3em 3em 0 0 #f09199,
+  3em 3em 0 0 #f09199,
+  5em 3em 0 0 #f09199,
+  -2em 4em 0 0 #f09199,
+  -1em 4em 0 0 #f09199,
+  1em 4em 0 0 #f09199,
+  2em 4em 0 0 #f09199;
+  background: #f09199;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  margin: 50px 0 70px 65px;
+}
+```
+实现效果如下图：
+
+![space-invader](https://raw.githubusercontent.com/youling4438/develope-websites/master/images/space-invader.png "space-invader")

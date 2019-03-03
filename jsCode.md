@@ -43,3 +43,38 @@ Math.random().toFixed(6).slice(-6);
 ```JavaScript
 'componentWillReceiveProps'.match(/^[a-z][a-z0-9]+|[A-Z][a-z0-9]*/g).join('_').toLowerCase(); // component_will_receive_props
 ```
+
++  url查询参数转json格式
+```JavaScript
+// ES6
+const query = (search = '') => ((querystring = '') => (q => (querystring.split('&').forEach(item => (kv => kv[0] && (q[kv[0]] = kv[1]))(item.split('='))), q))({}))(search.split('?')[1]);
+
+// 对应ES5实现
+var query = function(search) {
+  if (search === void 0) { search = ''; }
+  return (function(querystring) {
+    if (querystring === void 0) { querystring = ''; }
+    return (function(q) {
+      return (querystring.split('&').forEach(function(item) {
+        return (function(kv) {
+          return kv[0] && (q[kv[0]] = kv[1]);
+        })(item.split('='));
+      }), q);
+    })({});
+  })(search.split('?')[1]);
+};
+
+query('?key1=value1&key2=value2'); // es6.html:14 {key1: "value1", key2: "value2"}
+```
+
++  获取URL参数
+```JavaScript
+function getQueryString(key){
+  var reg = new RegExp("(^|&)"+ key +"=([^&]*)(&|$)");
+  var r = window.location.search.substr(1).match(reg);
+  if(r!=null){
+      return  unescape(r[2]);
+  }
+  return null;
+}
+```

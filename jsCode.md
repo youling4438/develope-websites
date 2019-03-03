@@ -122,3 +122,55 @@ Date.prototype.format = function (fmt) {
 
 new Date().format('yy-M-d h:m:s'); // 19-03-03 23:29:41
 ```
+
++  n维数组展开成一维数组
+```JavaScript
+var foo = [1, [2, 3], ['4', 5, ['6',7,[8]]], [9], 10];
+
+// 方法一
+// 限制：数组项不能出现`,`，同时数组项全部变成了字符数字
+foo.toString().split(','); // ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+
+// 方法二
+// 转换后数组项全部变成数字了
+eval('[' + foo + ']'); // [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+// 方法三，使用ES6展开操作符
+// 写法太过麻烦，太过死板
+[1, ...[2, 3], ...['4', 5, ...['6',7,...[8]]], ...[9], 10]; // [1, 2, 3, "4", 5, "6", 7, 8, 9, 10]
+
+// 方法四
+JSON.parse(`[${JSON.stringify(foo).replace(/\[|]/g, '')}]`); // [1, 2, 3, "4", 5, "6", 7, 8, 9, 10]
+
+// 方法五
+const flatten = (ary) => ary.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), []);
+flatten(foo); // [1, 2, 3, "4", 5, "6", 7, 8, 9, 10]
+
+// 方法六
+function flatten(a) {
+  return Array.isArray(a) ? [].concat(...a.map(flatten)) : a;
+}
+flatten(foo); // [1, 2, 3, "4", 5, "6", 7, 8, 9, 10]
+
+// 方法七
+var flatten = function(arr) {
+  var result = [];
+  var flat = function* (a) {
+    var length = a.length;
+    for (var i = 0; i < length; i++) {
+      var item = a[i];
+      if (typeof item !== 'number') {
+        yield * flat(item);
+      } else {
+        yield item;
+      }
+    }
+  }
+
+  for (var f of flat(arr)) {
+    result.push(f);
+  }
+
+  return result;
+}
+```

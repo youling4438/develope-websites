@@ -41,7 +41,7 @@ Math.random().toFixed(6).slice(-6);
 
 + 驼峰命名转下划线
 ```JavaScript
-'componentWillReceiveProps'.match(/^[a-z][a-z0-9]+|[A-Z][a-z0-9]*/g).join('_').toLowerCase(); // component_will_receive_props
+'componentWillReceivePr ops'.match(/^[a-z][a-z0-9]+|[A-Z][a-z0-9]*/g).join('_').toLowerCase(); // component_will_receive_props
 ```
 
 + url查询参数转json格式

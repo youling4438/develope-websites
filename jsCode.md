@@ -394,3 +394,41 @@ var f = function() {}();
 1 ^ function() {}();
 1 > function() {}();
 ```
+
++ 两个整数交换数值
+```JavaScript
+var a = 20, b = 30;
+a ^= b;
+b ^= a;
+a ^= b;
+
+a; // 30
+b; // 20
+```
+
++ 数字字符转数字
+```JavaScript
+var a = '1';
++a; // 1
+```
+
++ 最短的代码实现数组去重
+```JavaScript
+[...new Set([1, "1", 2, 1, 1, 3])]; // [1, "1", 2, 3]
+```
+
++ 用最短的代码实现一个长度为m(6)且值都n(8)的数组
+```JavaScript
+Array(6).fill(8); // [8, 8, 8, 8, 8, 8]
+```
+
++ 将argruments对象转换成数组
+```JavaScript
+var argArray = Array.prototype.slice.call(arguments);
+
+// ES6：
+var argArray = Array.from(arguments)
+
+// or
+var argArray = [...arguments];
+```

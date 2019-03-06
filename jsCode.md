@@ -359,3 +359,38 @@ undefined = 1;
 ```JavaScript
 "★★★★★☆☆☆☆☆".slice(5 - rate, 10 - rate);
 ```
+
++ JavaScript 错误处理的方式的正确姿势
+```JavaScript
+try {
+    something
+} catch (e) {
+    window.location.href =
+        "http://stackoverflow.com/search?q=[js]+" +
+        e.message;
+}
+```
+
++ 匿名函数自执行写法
+```JavaScript
+( function() {}() );
+( function() {} )();
+[ function() {}() ];
+
+~ function() {}();
+! function() {}();
++ function() {}();
+- function() {}();
+
+delete function() {}();
+typeof function() {}();
+void function() {}();
+new function() {}();
+new function() {};
+
+var f = function() {}();
+
+1, function() {}();
+1 ^ function() {}();
+1 > function() {}();
+```

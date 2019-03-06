@@ -432,3 +432,39 @@ var argArray = Array.from(arguments)
 // or
 var argArray = [...arguments];
 ```
+
++ 获取日期时间缀
+```JavaScript
+// 获取指定时间的时间缀
+new Date().getTime();
+(new Date()).getTime();
+(new Date).getTime();
+// 获取当前的时间缀
+Date.now();
+// 日期显示转换为数字
++new Date();
+```
+
++ 使用``~x.indexOf('y')``来简化``x.indexOf('y') > -1``
+```JavaScript
+var str = 'hello world';
+if (str.indexOf('lo') > -1) {
+  // ...
+}
+
+if (~str.indexOf('lo')) {
+  // ...
+}
+```
+
++ ``parseInt()`` or ``Number()``
+```JavaScript
+var str = 'hello world';
+if (str.indexOf('lo') > -1) {
+  // ...
+}
+
+if (~str.indexOf('lo')) {
+  // ...
+}
+```

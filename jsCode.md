@@ -458,13 +458,29 @@ if (~str.indexOf('lo')) {
 ```
 
 + ``parseInt()`` or ``Number()``
-```JavaScript
-var str = 'hello world';
-if (str.indexOf('lo') > -1) {
-  // ...
-}
 
-if (~str.indexOf('lo')) {
-  // ...
-}
+两者的差别之处在于解析和转换两者之间的理解。
+
+解析允许字符串中含有非数字字符，解析按从左到右的顺序，如果遇到非数字字符就停止。而转换不允许出现非数字字符，否者会失败并返回NaN。
+
+```JavaScript
+var a = '520';
+var b = '520px';
+
+Number(a); // 520
+parseInt(a); // 520
+
+Number(b); // NaN
+parseInt(b); // 520
 ```
+
+``parseInt``方法第二个参数用于指定转换的基数，ES5默认为10进制。
+
+```JavaScript
+parseInt('10', 2); // 2
+parseInt('10', 8); // 8
+parseInt('10', 10); // 10
+parseInt('10', 16);  // 16
+```
+
+对于网上``parseInt(0.0000008)``的结果为什么为8，原因在于0.0000008转换成字符为"8e-7"，然后根据``parseInt``的解析规则自然得到"8"这个结果。

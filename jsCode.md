@@ -484,3 +484,62 @@ parseInt('10', 16);  // 16
 ```
 
 对于网上``parseInt(0.0000008)``的结果为什么为8，原因在于0.0000008转换成字符为"8e-7"，然后根据``parseInt``的解析规则自然得到"8"这个结果。
+
++ ``+``拼接操作，``+x`` or ``String(x)``？
+
++运算符可用于数字加法，同时也可以用于字符串拼接。如果+的其中一个操作符是字符串(或者通过 隐式强制转换可以得到字符串)，则执行字符串拼接；否者执行数字加法。
+
+需要注意的时对于数组而言，不能通过``valueOf()``方法得到简单基本类型值，于是转而调用``toString()``方法。
+
+```JavaScript
+[1,2] + [3, 4]; // "1,23,4"
+```
+
+对于对象同样会先调用``valueOf()``方法，然后通过``toString()``方法返回对象的字符串表示。
+
+```JavaScript
+var a = {};
+a + 123; // "[object Object]123"
+```
+
+对于``a + ""``隐式转换和``String(a)``显示转换有一个细微的差别：``a + ''``会对a调用``valueOf()``方法，而``String()``直接调用``toString()``方法。大多数情况下我们不会考虑这个问题，除非真遇到。
+
+```JavaScript
+var a  = {
+  valueOf: function() { return 42; },
+  toString: function() { return 4; }
+}
+
+a + ''; // 42
+String(a); // 4
+```
+
++ 判断对象的实例
+```JavaScript
+// 方法一: ES3
+function Person(name, age) {
+  if (!(this instanceof Person)) {
+    return new Person(name, age);
+  }
+  this.name = name;
+  this.age = age;
+}
+
+// 方法二: ES5
+function Person(name, age) {
+  var self = this instanceof Person ? this : Object.create(Person.prototype);
+  self.name = name;
+  self.age = age;
+
+  return self;
+}
+
+// 方法三：ES6
+function Person(name, age) {
+  if (!new.target) {
+    throw 'Peron must called with new';
+  }
+  this.name = name;
+  this.age = age;
+}
+```
